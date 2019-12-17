@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 90, 9, 0.7),
+      rgba(236, 127, 55, 0.7)
+    ),
+    url(media/foliage.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+div {
+  height: 100vh;
+  color: white;
+  font-size: 36px;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: red;
+}
+li:last-child {
+  color: green;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+li:nth-of-type(3) {
+  color: purple;
+  text-decoration: line-through;
+}
+#test2 {
+  color: red;
+}
+.test {
+  color: teal;
+}
+div h2 {
+  color: saddlebrown;
+} /*descdent  selector */
+
+ul + h2 {
+  color: slategrey;
+}

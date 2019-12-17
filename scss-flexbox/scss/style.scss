@@ -1,0 +1,36 @@
+// allows us to break up or SCSS files for easier reading, then combine into one file
+
+@import "./_about.scss";
+
+@import "./_header.scss";
+@import "./_variables.scss";
+
+//Using variables makes our lives much easier!
+$padding: 1.3rem;
+body {
+  background-color: rgba(color(primary), 0.4);
+  color: color(primary);
+}
+/* .flex-parent {
+  background-color: red;
+  height: 60vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;//Space between elements
+}
+.flex-child {
+  background-color: blue;
+  margin: 10px;
+  height: 20vh;
+  color: white;
+}
+#flex-grow-1 {
+  display: flex;
+  justify-content: space-between
+#flex-grow-2 {
+  flex-grow: 2; //takes up remaining space based on flex-grow property of other obejcts as well
+}
+.flex-sm {
+  background-color: purple;
+}
+ */
